@@ -1,0 +1,177 @@
+#menu{
+	list-style-type: none;
+	margin-right: 10%;
+}
+
+@font-face {
+  font-family: Light;
+  src: url(Light.ttf);
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(Regular.ttf);
+}
+
+@font-face {
+  font-family: Dark;
+  src: url(Dark.ttf);
+}
+
+.menuItem{
+	float: right;
+	position:relative;
+	margin-right: 10%;
+}
+
+.menuItem a{
+	display: block;
+ 	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Regular;
+	color: #176fae;
+	font-weight: bold;
+}
+
+.menuItem a:hover{
+	color: black;
+}
+
+#selected{
+	padding-bottom: 0px;
+	border-bottom: 1px solid #000;
+}
+
+#name{
+	display: inline;
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 40px;
+	font-family: Light;
+	margin-left: 5%;
+}
+
+hr{
+	height: 1px;
+	border: none; 
+	background: gray; 
+}
+
+.box{
+	margin: auto;
+	width: 40%;
+	padding-top: 15%;
+	padding-bottom: 5%;
+	background-color: #f2f2f2;
+	margin-top: 100px;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid gray;
+}
+
+.boxTitle{
+	font-family: Dark;
+	font-size: 26px;
+	text-align: center;
+	position: relative;
+	top: -200px;
+}
+
+.info1{
+	font-family: Regular;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: -200px;
+}
+
+.info2{
+	font-family: Regular;
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	top: -200px;
+}
+
+.logo{
+	height: 75px;
+	width: 75px;
+	border: 1px solid black;
+	margin-top: -30%;
+}
+
+.projLeftHover{
+	width: 35%;
+	height: 75%;
+	margin-left: 10%;
+	margin-top: 5%;
+	position: absolute;
+	opacity: 0;
+	transition: .5s ease;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.projLeftHover:hover{
+	opacity: .9;
+}
+
+.projRightHover{
+	width: 35%;
+	height: 75%;
+	margin-left: 55%;
+	margin-top: 5%;
+	position: absolute;
+	opacity: 0;
+	transition: .5s ease;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.projRightHover:hover{
+	opacity: .9;
+}
+
+.projLeft{
+	width: 35%;
+	height: 75%;
+	margin-left: 10%;
+	margin-top: 5%;
+	position: absolute;
+	opacity: 1;
+	transition: .5s ease;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.projLeft:hover{
+	opacity: 0;
+}
+
+.projRight{
+	width: 35%;
+	height: 75%;
+	margin-left: 55%;
+	margin-top: 5%;
+	position: absolute;
+	opacity: 1;
+	transition: .5s ease;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+
+.projRight:hover{
+	opacity: 0;
+}
+
+#separate{
+	height: 90%;
+}
+
+#bottom{
+	height: 100%;
+}
